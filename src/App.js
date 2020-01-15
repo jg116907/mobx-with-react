@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import Counter from './Counter';
+// import Counter from './Counter';
+import CounterDeco from './CounterDeco';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Counter />
+        <CounterDeco />
       </div>
     );
   }
